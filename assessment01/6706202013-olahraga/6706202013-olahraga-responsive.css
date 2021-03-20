@@ -1,0 +1,25 @@
+/** untuk hp **/
+@media all and (max-width: 670px) {
+    header h1 {
+        font-size: 12px;
+    }
+
+    .back {
+        border: 2px solid #fdb827;
+        border-radius: 8px;
+    }
+
+    .news {
+        display: block;
+    }
+
+    .news img {
+        width: 325px;
+        height: 200px;
+    }
+
+    .konten {
+        width: 100%;
+        text-align: justify;
+    }
+}
