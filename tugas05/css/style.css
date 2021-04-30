@@ -1,0 +1,148 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+html, body, ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body, button, option, input, select {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    height: 500px;
+    width: 100%;
+}
+
+.sidebar {
+    float: left;
+    width: 200px;
+    height: 100%;
+    padding: 0 5px;
+    border-right: 1px solid #ffa372;
+}
+
+.sidebar a {
+    line-height: 2.5rem;
+    display: block;
+    color: black;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.active, .sidebar a:hover{
+    background-color: #ffa372;
+}
+
+.content {
+    height: 100%;
+    float: left;
+    padding: 100px;
+}
+
+label {
+    padding: 10px;
+    text-align: right;
+    display: inline-block;
+    width: 120px;
+}
+
+input, select {
+    padding: 6px 12px;
+    width: 500px;
+    border-color: #ffa372;
+    border-style: solid;
+    border-radius: 5px;
+    transition: all 0.30s ease-in-out;
+    outline: none;
+}
+
+.login input, .register input {
+    width: auto;
+    margin: 6px 0;
+}
+
+.login button, .register button, .button {
+    margin-left: 0px !important;
+}
+
+.login p, .register p {
+    padding-top: 6px;
+}
+
+input:focus, select:focus {
+    box-shadow: 0 0 5px #ed6663;
+}
+
+.input {
+    margin: 5px 0;
+}
+
+.input, label {
+    float: left;
+}
+
+button, .button {
+    background-color: #ffa372;
+    outline: none;
+    border-radius: 5px;
+    border: 0;
+    line-height: 2.5rem;
+    padding: 0 10px;
+    margin-left: 120px;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+}
+
+button:hover, .button:hover {
+    cursor: pointer;
+    background-color: #ed6663;
+}
+
+.button {
+    width: 100px;
+}
+
+.teks {
+    font-size: 20px;
+}
+
+.table td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border: 1px solid #ffa372;
+}
+
+.table th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border: 1px solid #ffa372;
+}
+
+.table {
+    border-spacing: 0;
+    margin-top: 20px;
+    width: 100%;
+}
